@@ -103,4 +103,4 @@ def transfer_tables(source_db, dest_db, conn_params):
 # Main script execution
 if __name__ == "__main__":
     # Transfer tables from 'source_db' to 'dest_db'
-    transfer_tables("ems", "qa", params)
+    transfer_tables("try", "qa", params)
